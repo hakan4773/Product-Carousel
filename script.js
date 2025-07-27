@@ -61,15 +61,9 @@
 
     const buildCSS = () => {
         const css = `
-            .product-detail {
-                margin: 0 auto;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                padding: 20px;
-                border-radius: 10px;
-                background-color: #f4f4f4 !important;
-            }
+            body {
+                background-color: #f4f4f4;
+                }
 
 
             .container {
@@ -81,7 +75,7 @@
               justify-content: center;
               align-items: center;
               text-align: center;
-                background-color: #f4f4f4;
+      
               
             }
 
@@ -92,7 +86,7 @@
         align-items: center;
         overflow: hidden;
         width: 100%;
-        max-width: 1000px; 
+        max-width: 1100px; 
         margin: 0 auto;
         }
 
@@ -227,7 +221,7 @@
 
         
     .carousel-header {
-        max-width: 1000px;
+        max-width: 1100px;
         width: 100%;
         padding-left: 10px;
     }
